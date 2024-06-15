@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div style="text-align: center">
+        <h1>STUDENT FORM</h1>
+        <hr width="70%" color="black" />
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <div align="center">
+        <fieldset style="width: 280px">
+          <legend>STUDENT FORM</legend>
+          <form style="text-align: left">
+            <label>Name: </label>
+            <input type="text" name="name" placeholder="Enter your name" />
+            <br />
+            <br />
+            <label>F.name: </label>
+            <input
+              type="text"
+              name="father name"
+              placeholder="Enter your father name"
+            />
+            <br />
+            <br />
+            <label>CNIC no: </label>
+            <input type="text" name="" placeholder="5624******4561" />
+            <br />
+            <br />
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="argt****@gmail.com" />
+            <br />
+            <br />
+            <label>Date of Birth: </label>
+            <input type="date" name="dob" />
+            <br />
+            <br />
+            <label>Mobile No: </label>
+            <input type="number" name="number" placeholder="0345*******7854" />
+            <br />
+            <br />
+            <label>Gender: </label>
+            <br />
+            <label for="1">
+              <input type="radio" name="gender" value="male" id="1" />Male
+            </label>
+            <label for="2">
+              <input type="radio" name="gender" value="female" id="2" />Female
+            </label>
+            <br />
+            <br />
+            <label>Address: </label>
+            <input
+              type="text"
+              name="address"
+              placeholder="Enter your address"
+            />
+            <br />
+            <br />
+            <label>Blood Group: </label>
+            <select name="Group">
+              <option value="">A+</option>
+              <option value="">B+</option>
+              <option value="">AB+</option>
+              <option value="">O+</option>
+              <option value="">A-</option>
+              <option value="">B-</option>
+              <option value="">AB-</option>
+              <option value="">O-</option>
+            </select>
+            <br />
+            <br />
+            <label for="3"
+              >Course Name: <input type="radio" name="Course" id="3" />Web & app
+              development
+            </label>
+            <label for="4">
+              <input type="radio" name="Course" id="4" />Python
+            </label>
+            <label for="5">
+              <input type="radio" name="Course" id="5" />Flutter
+            </label>
+            <label for="6">
+              <input type="radio" name="Course" id="6" />Cybersecurity
+            </label>
+            <br />
+            <br />
+            <label>Education: </label>
+            <select name="Education">
+              <option value="">Matric</option>
+              <option value="">Intermidiate</option>
+            </select>
+            <br />
+            <br />
+            <label>Upload Picture: </label>
+            <input type="file" name="upload picture" />
+            <br />
+            <br />
+            <input type="button" value="Submit" />
+            <input type="reset" value="Reset" />
+          </form>
+        </fieldset>
+        <br />
+      </div>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div style="text-align: center">
+        <hr width="70%" color="black" />
+        <b><i>Last Date: 15/August/2024</i></b>
+      </div>
+    </footer>
+  </body>
+</html>
